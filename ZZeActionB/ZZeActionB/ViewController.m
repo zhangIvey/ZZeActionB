@@ -17,7 +17,7 @@
 - (void)doSomething
 {
     NSLog(@"ActionB - 0.0.1");
-    
+    NSLog(@"ActionB - 0.0.2");
 }
 
 - (void)viewDidLoad {
