@@ -13,6 +13,7 @@
 		75EAA34A1F98B04400A8DBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA3491F98B04400A8DBCF /* Assets.xcassets */; };
 		75EAA34D1F98B04400A8DBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA34B1F98B04400A8DBCF /* LaunchScreen.storyboard */; };
 		75EAA3501F98B04400A8DBCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA34F1F98B04400A8DBCF /* main.m */; };
+		75EAA3941FA0636400A8DBCF /* B_options.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3931FA0636300A8DBCF /* B_options.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		75EAA34C1F98B04400A8DBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75EAA34E1F98B04400A8DBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EAA34F1F98B04400A8DBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75EAA3921FA0636300A8DBCF /* B_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_options.h; sourceTree = "<group>"; };
+		75EAA3931FA0636300A8DBCF /* B_options.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_options.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		75EAA33F1F98B04400A8DBCF /* ZZeActionB */ = {
 			isa = PBXGroup;
 			children = (
+				75EAA3911FA0634200A8DBCF /* classes */,
 				75EAA3401F98B04400A8DBCF /* AppDelegate.h */,
 				75EAA3411F98B04400A8DBCF /* AppDelegate.m */,
 				75EAA3431F98B04400A8DBCF /* ViewController.h */,
@@ -69,6 +73,15 @@
 				75EAA34F1F98B04400A8DBCF /* main.m */,
 			);
 			path = ZZeActionB;
+			sourceTree = "<group>";
+		};
+		75EAA3911FA0634200A8DBCF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				75EAA3921FA0636300A8DBCF /* B_options.h */,
+				75EAA3931FA0636300A8DBCF /* B_options.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 				75EAA3451F98B04400A8DBCF /* ViewController.m in Sources */,
 				75EAA3501F98B04400A8DBCF /* main.m in Sources */,
 				75EAA3421F98B04400A8DBCF /* AppDelegate.m in Sources */,
+				75EAA3941FA0636400A8DBCF /* B_options.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
