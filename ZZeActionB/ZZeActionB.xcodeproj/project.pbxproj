@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7578D3831FA300B900107998 /* C_model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578D3821FA300B900107998 /* C_model.m */; };
 		75EAA3421F98B04400A8DBCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3411F98B04400A8DBCF /* AppDelegate.m */; };
 		75EAA3451F98B04400A8DBCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3441F98B04400A8DBCF /* ViewController.m */; };
 		75EAA3481F98B04400A8DBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA3461F98B04400A8DBCF /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7578D3811FA300B900107998 /* C_model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C_model.h; sourceTree = "<group>"; };
+		7578D3821FA300B900107998 /* C_model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C_model.m; sourceTree = "<group>"; };
 		75EAA33D1F98B04400A8DBCF /* ZZeActionB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZeActionB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAA3401F98B04400A8DBCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75EAA3411F98B04400A8DBCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7578D3801FA300A200107998 /* Bussness */ = {
+			isa = PBXGroup;
+			children = (
+				7578D3811FA300B900107998 /* C_model.h */,
+				7578D3821FA300B900107998 /* C_model.m */,
+			);
+			path = Bussness;
+			sourceTree = "<group>";
+		};
 		75EAA3341F98B04400A8DBCF = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		75EAA33F1F98B04400A8DBCF /* ZZeActionB */ = {
 			isa = PBXGroup;
 			children = (
+				7578D3801FA300A200107998 /* Bussness */,
 				75EAA3911FA0634200A8DBCF /* classes */,
 				75EAA3401F98B04400A8DBCF /* AppDelegate.h */,
 				75EAA3411F98B04400A8DBCF /* AppDelegate.m */,
@@ -159,6 +172,7 @@
 				75EAA3501F98B04400A8DBCF /* main.m in Sources */,
 				75EAA3421F98B04400A8DBCF /* AppDelegate.m in Sources */,
 				75EAA3941FA0636400A8DBCF /* B_options.m in Sources */,
+				7578D3831FA300B900107998 /* C_model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
