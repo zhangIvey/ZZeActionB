@@ -28,7 +28,7 @@ spec.library               = 'z'
 spec.requires_arc          = true
 
 spec.subspec 'Bussness' do |ss|
-spec.source_files = "ZZeActionB/ZZeActionB/Bussness/{*.h,*.m}";
+ss.source_files = "ZZeActionB/ZZeActionB/Bussness/{*.h,*.m}";
 end
 
 
