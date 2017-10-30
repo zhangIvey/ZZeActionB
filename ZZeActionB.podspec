@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionB'
 
-spec.version               = '0.0.15'
+spec.version               = '0.0.16'
 
 spec.ios.deployment_target = '8.0'
 
@@ -21,7 +21,6 @@ spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionB.
 
 spec.subspec 'Module' do |ss|
 ss.source_files = "ZZeActionB/ZZeActionB/classes/module/{*.h,*.h}"
-ss.library = 'z'
 end
 
 
