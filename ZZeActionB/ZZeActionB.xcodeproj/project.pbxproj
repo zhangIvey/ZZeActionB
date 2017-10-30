@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7578D38B1FA6C14700107998 /* B_optionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578D38A1FA6C14700107998 /* B_optionModel.m */; };
 		7578D38E1FA6C16200107998 /* B_optionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578D38D1FA6C16200107998 /* B_optionView.m */; };
+		7578D3911FA6CEB000107998 /* B_optionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578D38F1FA6CEAF00107998 /* B_optionModel.m */; };
 		75EAA3421F98B04400A8DBCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3411F98B04400A8DBCF /* AppDelegate.m */; };
 		75EAA3451F98B04400A8DBCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3441F98B04400A8DBCF /* ViewController.m */; };
 		75EAA3481F98B04400A8DBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA3461F98B04400A8DBCF /* Main.storyboard */; };
@@ -19,10 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7578D3891FA6C14700107998 /* B_optionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_optionModel.h; sourceTree = "<group>"; };
-		7578D38A1FA6C14700107998 /* B_optionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_optionModel.m; sourceTree = "<group>"; };
 		7578D38C1FA6C16200107998 /* B_optionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_optionView.h; sourceTree = "<group>"; };
 		7578D38D1FA6C16200107998 /* B_optionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_optionView.m; sourceTree = "<group>"; };
+		7578D38F1FA6CEAF00107998 /* B_optionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = B_optionModel.m; path = module/B_optionModel.m; sourceTree = "<group>"; };
+		7578D3901FA6CEAF00107998 /* B_optionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = B_optionModel.h; path = module/B_optionModel.h; sourceTree = "<group>"; };
 		75EAA33D1F98B04400A8DBCF /* ZZeActionB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZeActionB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAA3401F98B04400A8DBCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75EAA3411F98B04400A8DBCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,10 +84,10 @@
 		75EAA3911FA0634200A8DBCF /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				7578D3901FA6CEAF00107998 /* B_optionModel.h */,
+				7578D38F1FA6CEAF00107998 /* B_optionModel.m */,
 				75EAA3921FA0636300A8DBCF /* B_options.h */,
 				75EAA3931FA0636300A8DBCF /* B_options.m */,
-				7578D3891FA6C14700107998 /* B_optionModel.h */,
-				7578D38A1FA6C14700107998 /* B_optionModel.m */,
 				7578D38C1FA6C16200107998 /* B_optionView.h */,
 				7578D38D1FA6C16200107998 /* B_optionView.m */,
 			);
@@ -166,11 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EAA3451F98B04400A8DBCF /* ViewController.m in Sources */,
-				7578D38B1FA6C14700107998 /* B_optionModel.m in Sources */,
 				75EAA3501F98B04400A8DBCF /* main.m in Sources */,
 				75EAA3421F98B04400A8DBCF /* AppDelegate.m in Sources */,
 				7578D38E1FA6C16200107998 /* B_optionView.m in Sources */,
 				75EAA3941FA0636400A8DBCF /* B_options.m in Sources */,
+				7578D3911FA6CEB000107998 /* B_optionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
