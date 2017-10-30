@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionB'
 
-spec.version               = '0.0.16'
+spec.version               = '0.0.17'
 
 spec.ios.deployment_target = '8.0'
 
@@ -20,7 +20,11 @@ spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionB.
 #spec.source_files          = "ZZeActionB/ZZeActionB/classes/**/{*.h,*.m}"
 
 spec.subspec 'Module' do |ss|
-ss.source_files = "ZZeActionB/ZZeActionB/classes/module/{*.h,*.h}"
+ss.source_files = "ZZeActionB/ZZeActionB/classes/module/{*.h,*.m}"
+end
+
+spec.subspec 'View' do |s|
+s.source_files = "ZZeActionB/ZZeActionB/classes/**/{*.h,*.m}"
 end
 
 
