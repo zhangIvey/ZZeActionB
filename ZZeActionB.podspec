@@ -20,7 +20,7 @@ spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionB.
 spec.source_files          = "ZZeActionB/ZZeActionB/classes/**/{*.h,*.m}"
 
 spec.subspec 'Module' do |ss|
-ss.source_files = "ZZeActionB/ZZeActionB/classes/module/**/{*.h,*.h}"
+ss.source_files = "ZZeActionB/ZZeActionB/classes/module/{*.h,*.h}"
 ss.library = 'z'
 end
 
