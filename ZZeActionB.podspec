@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionB'
 
-spec.version               = '0.0.5'
+spec.version               = '0.0.11'
 
 spec.ios.deployment_target = '8.0'
 
@@ -27,12 +27,8 @@ spec.library               = 'z'
 
 spec.requires_arc          = true
 
-spec.subspec 'Bussness' do |ss|
-ss.source_files = "ZZeActionB/ZZeActionB/classes/Bussness/{*.h,*.m}";
-end
 
 
 
 
 end
-
